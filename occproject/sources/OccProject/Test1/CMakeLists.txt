@@ -1,0 +1,5 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+PROJECT(test1)
+
+CreateExecutable(test1.cpp TKernel TKMath TKPrim TKBO TKSTEP)
